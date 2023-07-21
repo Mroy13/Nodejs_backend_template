@@ -1,3 +1,3 @@
 module.exports={
-    movieService:require("./movie-services")
+    movieService:require('./movie-services')
 }

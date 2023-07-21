@@ -1,6 +1,6 @@
-const {movieService}=require("../services");
-const StatusCode=require("http-status-codes");
-const {SuccessResponse,ErrorResponse}=require("../utils/common");
+const {movieService}=require('../services');
+const StatusCode=require('http-status-codes');
+const {SuccessResponse,ErrorResponse}=require('../utils/common');
 async function createMovie(req,res){
        try{
              const movieInfo=await movieService.createMovie({

@@ -1,3 +1,3 @@
 module.exports={
-    movieRepository:require("./movie-repository")
+    movieRepository:require('./movie-repository')
 }

@@ -1,7 +1,6 @@
 const StatusCode=require('http-status-codes');
-const {movieRepository}=require("../repositories");
-const Apperror=require("../utils/error/App-error");
-const { ValidationError } = require('sequelize');
+const {movieRepository}=require('../repositories');
+const Apperror=require('../utils/error/App-error');
 
 const MovieRepository=new movieRepository();
 async function createMovie(data){
