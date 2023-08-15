@@ -1,3 +1,3 @@
 module.exports={
-    movieRepository:require('./movie-repository')
+    modelnameRepository:require('./reponame-repository')
 }

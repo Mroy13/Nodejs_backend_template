@@ -1,7 +1,7 @@
 const express=require('express');
-const { infoControler} = require('../../controlers');
-const moviesRoutes=require('./movie-routes');
+const { infoController} = require('../../controllers');
+const Routes=require('./routesname-routes');
 const router=express.Router();
-router.use('/movie',moviesRoutes);
-router.get('/info',infoControler.info);
+router.use('/',Routes);
+router.get('/info',infoController.info);
 module.exports=router;

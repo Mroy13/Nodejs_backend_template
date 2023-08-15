@@ -34,7 +34,7 @@ Lets take a look inside the `src` folder
     ```
         PORT=3000
     ```
- - go inside the `src` folder and execute the following command:
+ - delete models migrations and seeders folder then go inside the `src` folder and execute the following command:
     ```
       npx sequelize init
     ```
@@ -44,5 +44,5 @@ Lets take a look inside the `src` folder
 
  - To run the server execute
  ```
- npm run dev
+ node --watch src/index.js
  ```
